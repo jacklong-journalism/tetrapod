@@ -1,49 +1,50 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+	
+	.header {
+		background-position: 50% 25%;
+	}
+	
+	.headline {
+		font-size: 40px;
+		font-family: Roboto, serif;
+		font-style:normal;
+		font-weight:bold;
+		color: white;
+		padding-bottom: 20px;
+	}
+
+	.subheadline {
+		font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		font-size: 25px;
+		line-height: 35px;
+		font-style: normal;
+		font-weight: 800px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 20px;
+		color: white;
+	}
+
 	.centerme {
 		padding-top: 28%;
 	}
+	
 	.big-image {
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}
-}
-
-.fullheight-cover {
-	height: 100vh;
-	background-size: cover;
-	background-image: 
-		linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-		url(https://www.thelantern.com/files/2019/10/DSCF2048.jpg);
-	background-position: center;
-	padding-bottom: 15px;
+	
+	.header {
+		background-position: 50% 25%;
+	}
 }
 
 .title {
 	text-align: center;
-}
-
-.headline {
-	font-family: Roboto, serif;
-	font-size: 3em;
-	font-style:normal;
-	font-weight:bold;
-	color: white;
-	padding-bottom: 20px;
-}
-
-.subheadline {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	font-size: 2em;
-	line-height: 35px;
-	font-style: normal;
-	font-weight: 800px;
-	padding-left: 75px;
-	padding-right: 75px;
-	padding-top: 20px;
-	color: white;
+	padding-top: 20%;
 }
 
 .hamburger-menu {
@@ -52,6 +53,27 @@
 
 .vertical-center {
 	display: flex;
+}
+
+.headline {
+	font-size: 60px;
+	font-family: Roboto, serif;
+	font-style:normal;
+	font-weight:bold;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.subheadline {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 35px;
+	line-height: 35px;
+	font-style: normal;
+	font-weight: 800px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 20px;
+	color: white;
 }
 
 .body {
@@ -141,3 +163,13 @@ span.photo-credit {
 
 
 
+
+.new-header {
+	background-image: url("https://www.thelantern.com/files/2019/10/DSCF2048.jpg") no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	
+}
