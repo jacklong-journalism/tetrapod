@@ -158,6 +158,11 @@ span.photo-credit {
 	font-family: 'Indie Flower', normal;
 }
 
+.p-donation {
+	padding-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
 .donation-btn {
 	color: white;
 	background-color: black;
@@ -173,22 +178,16 @@ span.photo-credit {
 }
 
 
-
+/* Footer */
 .footer {
 	bottom: 0;
 	width: 100%;
 	background-color: black;
-	border-top: 10px solid #C6252D;
+	border-bottom: 10px solid #C6252D;
+	padding: 20px;
 }
 
-
-
-.p-donation {
-	padding-bottom: 20px;
-	font-family: 'Lato', sans-serif;
-}
-
-.donation-link {
-	color: black;
-	text-decoration: underline black;
+.footer-link {
+	color: white;
+	text-decoration: underline white 2px;
 }
