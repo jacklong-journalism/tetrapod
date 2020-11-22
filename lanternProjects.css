@@ -150,14 +150,20 @@ span.photo-credit {
 }
 
 
+/* Donation Text and Button */
 
+.donation-text {
+	text-align: center;
+}
 
-.new-header {
-	background-image: url("https://www.thelantern.com/files/2019/10/DSCF2048.jpg") no-repeat center center fixed;
-	display: table;
-	height: 100%;
-	position: relative;
+.donation-block {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+.footer {
+	bottom: 0;
 	width: 100%;
-	background-size: cover;
-	
+	background-color: black;
+	border-top: 10px solid #C6252D;
 }
