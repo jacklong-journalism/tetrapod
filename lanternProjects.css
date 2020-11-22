@@ -152,18 +152,43 @@ span.photo-credit {
 
 /* Donation Text and Button */
 
-.donation-text {
-	text-align: center;
+.h1-donation {
+	border-bottom: 10px solid #C8262D;
+	margin-bottom: 20px;
+	font-family: 'Indie Flower', normal;
 }
 
-.donation-block {
-	padding-top: 40px;
-	padding-bottom: 60px;
+.donation-btn {
+	color: white;
+	background-color: black;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	border-radius: 0;
 }
+
+.donation-btn:hover {
+	border-color: black;
+	color: black;
+	background-color: white;
+}
+
+
 
 .footer {
 	bottom: 0;
 	width: 100%;
 	background-color: black;
 	border-top: 10px solid #C6252D;
+}
+
+
+
+.p-donation {
+	padding-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+.donation-link {
+	color: black;
+	text-decoration: underline black;
 }
