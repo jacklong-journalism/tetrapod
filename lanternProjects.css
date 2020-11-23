@@ -110,7 +110,8 @@ p.subline {
 }
 
 .article-text {
-	font-family: Times New Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family: 'EB Garamond', serif;
+	color: black;
 	text-align: left;
 	font-size: 18px;
 	line-height: 26px;
@@ -119,7 +120,7 @@ p.subline {
 span.dropcap {
 	color:black;
 	float: left;
-	font-family: Times New Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family: 'EB Garamond', serif;
 	font-size: 75px;
 	line-height:60px;
 	padding-top: 4px;
